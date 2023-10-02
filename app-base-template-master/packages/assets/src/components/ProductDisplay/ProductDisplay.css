@@ -1,0 +1,69 @@
+.Sellect-Desktop-Position {
+  display: flex;
+  padding: 5px 0;
+}
+
+.Mageplaza-Desktop-Options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100px;
+  height: 60px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+.Mageplaza-Desktop-Options.selected {
+  border: 1px solid #3f4eae;
+}
+
+.Mageplaza-Desktop-Option {
+  width: 100%;
+  height: 100%;
+}
+
+.Mageplaza-Desktop-Option.MP-Gray {
+  background-color: gray;
+}
+
+.Mageplaza-Desktop-Options.selected .Mageplaza-Desktop-Option.MP-Gray {
+  background-color: #3f4eae;
+}
+
+.Top-Left {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.Top-Right {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.Bottom-Left {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.Bottom-Right {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+.Mageplaza-Flex-Column {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+p.Description-With-Padding-Left {
+  font-size: 12px;
+  opacity: 0.7;
+  padding-left: 28px;
+}
+p.Description {
+  font-size: 12px;
+  opacity: 0.7;
+}

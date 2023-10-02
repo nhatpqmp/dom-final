@@ -1,0 +1,20 @@
+.Mageplaza-NotificationItem-Parent {
+  display: flex;
+  justify-content: space-between;
+}
+.Mageplaza-NotificationItem .Item-Detail {
+  max-width: 35rem;
+  border: 1px solid #ccc;
+  padding: 10px
+}
+.Mageplaza-NotificationItem {
+  display: flex;
+  justify-content: space-between;
+}
+.Pagination-Center {
+  display: flex;
+  justify-content: center;
+}
+.Primary-Text {
+  color: rgb(0 110 214);
+}

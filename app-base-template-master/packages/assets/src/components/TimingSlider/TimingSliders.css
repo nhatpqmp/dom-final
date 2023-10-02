@@ -1,0 +1,14 @@
+.Mageplaza-Timing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Time-Selected {
+  border: 1px solid #000;
+  width: 20px;
+  height: 15px;
+}
+
+.Slider {
+  width: 50%;
+}
