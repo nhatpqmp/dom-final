@@ -13,7 +13,12 @@ function CustomCheckbox({itemKey}) {
   return (
     <Stack>
       {foundCheckbox && (
-        <Checkbox label={foundCheckbox.label} checked={isChecked} onChange={handleCheckboxChange} />
+        <Checkbox
+          helpText={foundCheckbox.helperText ? foundCheckbox.helperText : null}
+          label={foundCheckbox.label}
+          checked={isChecked}
+          onChange={handleCheckboxChange}
+        />
       )}
     </Stack>
   );

@@ -62,22 +62,16 @@ export default function Settings() {
                   </Stack>
                   <CustomCheckbox itemKey="hideTime" />
                   <CustomCheckbox itemKey="truncate" />
-                  <Stack>
-                    <Stack.Item fill>
+                  <div className="Mageplaza-Timing">
+                    <div className="Mageplaza-Slider">
                       <TimingSlider itemKey="displayDuration" />
-                    </Stack.Item>
-                    <Stack.Item>
                       <TimingSlider itemKey="timeBefore" />
-                    </Stack.Item>
-                  </Stack>
-                  <Stack distribution="equalSpacing">
-                    <Stack.Item fill>
+                    </div>
+                    <div className="Mageplaza-Slider">
                       <TimingSlider itemKey="gapTime" />
-                    </Stack.Item>
-                    <Stack.Item>
                       <TimingSlider itemKey="maximum" />
-                    </Stack.Item>
-                  </Stack>
+                    </div>
+                  </div>
                 </Card.Section>
               )}
               {selected === 1 && <PagesRestriction></PagesRestriction>}

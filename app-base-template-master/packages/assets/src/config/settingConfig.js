@@ -7,7 +7,12 @@ export const positions = [
 
 export const checkbox = [
   {checked: true, key: 'hideTime', label: 'Hide time ago'},
-  {checked: true, key: 'truncate', label: 'Truncate content text'}
+  {
+    checked: true,
+    key: 'truncate',
+    label: 'Truncate content text',
+    helperText: "If your product name is long for one line, it will be truncated to 'Product na..'"
+  }
 ];
 
 export const timing = [
